@@ -1,0 +1,122 @@
+html,
+body {
+  height: 100%;
+}
+
+body > div,
+.admin-panel {
+  height: 100%;
+}
+
+.left-sidebar {
+  position: fixed;
+  width: 300px;
+  background: #333;
+  height: 100%;
+  padding: 40px;
+  left: 0;
+  top: 0;
+}
+
+.site-admin-logo {
+  margin-bottom: 30px;
+}
+
+.left-sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.left-sidebar li a {
+  display: block;
+  border-bottom: 1px solid #444;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.admin-panel {
+  padding-left: 300px;
+}
+
+.right-admin-content {
+  padding: 50px 0;
+}
+
+.left-sidebar li {
+  position: relative;
+}
+
+.left-sidebar li ul {
+  position: absolute;
+  left: 210px;
+  background: #000;
+  width: 200px;
+  top: 30px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.left-sidebar li ul li a {
+  padding: 15px;
+}
+
+.left-sidebar li:hover > a {
+  color: #dd4e41;
+}
+
+.left-sidebar li:hover ul {
+  top: 0;
+  visibility: visible;
+  opacity: 1;
+}
+
+table.list-table {
+  width: 100%;
+}
+
+table.list-table th,
+table.list-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+table.list-table a {
+  color: #000;
+  font-weight: 400;
+}
+
+span.hover-only {
+  font-size: 80%;
+  display: none;
+}
+
+td.name {
+  width: 50%;
+}
+
+td.date,
+td.cat {
+  max-width: 192px;
+}
+
+span.hover-only a {
+  padding-right: 20px;
+}
+
+td.name:hover span.hover-only {
+  display: block;
+}
+
+td.name h6 {
+  margin-bottom: 0px;
+}
+
+table.list-table a.edit {
+  color: green;
+}
+
+table.list-table a.delete {
+  color: red;
+}

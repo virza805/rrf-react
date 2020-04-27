@@ -1,0 +1,33 @@
+type User {
+  id: ID! @id
+  name: String!
+  email: String!
+}
+
+type Product {
+  id: ID! @id
+  name: String!
+  price: Int!
+  saleprice: Int
+  content: String!
+  image: String!
+}
+
+type ProductCategory {
+  id: ID! @id
+  title: String!
+  image: String!
+}
+
+type Post {
+  id: ID! @id
+  title: String!
+  image: String!
+  content: String!
+}
+
+type PostCategory {
+  id: ID! @id
+  title: String!
+  image: String!
+}

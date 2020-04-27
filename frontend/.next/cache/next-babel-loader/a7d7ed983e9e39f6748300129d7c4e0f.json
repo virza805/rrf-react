@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const endpoint = `http://localhost:4444`;","map":{"version":3,"sources":["C:/Users/Tanvir/Desktop/Class-5 avocado-backend/frontend/config.js"],"names":["endpoint"],"mappings":"AAAA,OAAO,MAAMA,QAAQ,GAAI,uBAAlB","sourcesContent":["export const endpoint = `http://localhost:4444`;"]},"metadata":{},"sourceType":"module"}
